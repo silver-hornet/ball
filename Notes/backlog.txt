@@ -1,0 +1,38 @@
+###Completed
+Basic player movement
+Player screen boundaries
+Firing projectiles
+Enemies
+Destroying objects out of bounds
+Spawning (including randomization of enemies, start positions, and spawn rate)
+Music
+Sound effects
+Make player change colour when powerup picked up
+Make enemy disappear when hit by projectile
+Collisions
+Particle effects (when enemy destroyed)
+Powerups (pick up powerup, change player colour to indicate powerup ability, add an additional powerup indicator around player, allow firing of projectiles, turn off powerup after a few seconds)
+Spawn powerups
+Using a game manager
+Camera follows player
+Basic door switch
+Simple enemy AI (following player)
+Scoring system (with ability to do different values for different enemies)
+Game over condition
+Restart button
+Title screen
+Start buttons (based on difficulty options)
+Different point scores for different enemies
+Bug fixing
+- Made music play only after you actually start a difficulty level
+- Player can move off the platform despite the boundary limit (if you keep holding the cursor, the player will keep moving further outside the limit due to physics)
+- Player sticks to boundaries (probably to do with friction and other physics) (fixed this as a side effect of fixing the bug above)
+- Change enemy spawn positions
+- Powerup can spawn in wall (did a workaround by not spawning in that area of the level)
+- Powerups only show up on a z axis of 10
+- Player falls off edge after game over
+- Powerup indicator stops moving after death (no longer a problem after above bug fix)
+- Projectiles shoot through wall and door
+- Powerup duration doesn’t expire if you don’t shoot any projectiles
+- Powerup doesn’t work every second time (after the first time wears off and within 5 seconds of picking the second one)
+- Powerup indicator doesn’t move well with player
